@@ -1,1 +1,1 @@
-When I was a student at Baekseok University [Project]
+백석대학교 재학 시절 과제 프로젝트
