@@ -1,0 +1,14 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\bin\Debug\CALC.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\bin\Debug\CALC.pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\bin\Debug\CALC.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\CALC.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\CALC.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\CALC.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\CALC.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\CALC\obj\x86\Debug\CALC.pdb
+C:\Users\bon504-01\Desktop\진주양\CALC\CALC\obj\x86\Debug\CALC.exe
+C:\Users\bon504-01\Desktop\진주양\CALC\CALC\obj\x86\Debug\CALC.xml
+C:\Users\bon504-01\Desktop\진주양\CALC\CALC\obj\x86\Debug\CALC.pdb

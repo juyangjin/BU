@@ -1,0 +1,12 @@
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\bin\Release\WindowsApplication1.exe
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\bin\Release\WindowsApplication1.pdb
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\bin\Release\WindowsApplication1.xml
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.exe
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.xml
+C:\Users\주양\Downloads\복습\WindowsApplication1\WindowsApplication1\obj\x86\Release\WindowsApplication1.pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\p50\1번 입출력 프로그램\WindowsApplication1\obj\x86\Release\WindowsApplication1.exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\p50\1번 입출력 프로그램\WindowsApplication1\obj\x86\Release\WindowsApplication1.xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\p50\1번 입출력 프로그램\WindowsApplication1\obj\x86\Release\WindowsApplication1.pdb

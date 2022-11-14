@@ -1,0 +1,17 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\bin\Debug\연습문제.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\bin\Debug\연습문제.pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\bin\Debug\연습문제.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\연습문제.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\연습문제.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\연습문제.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\연습문제.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\연습문제\obj\x86\Debug\연습문제.pdb
+C:\Users\bon504-01\Desktop\진주양\연습문제\연습문제\obj\x86\Debug\연습문제.exe
+C:\Users\bon504-01\Desktop\진주양\연습문제\연습문제\obj\x86\Debug\연습문제.xml
+C:\Users\bon504-01\Desktop\진주양\연습문제\연습문제\obj\x86\Debug\연습문제.pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\4주 2017년 3월 30일\연습문제\연습문제\obj\x86\Debug\연습문제.exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\4주 2017년 3월 30일\연습문제\연습문제\obj\x86\Debug\연습문제.xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\4주 2017년 3월 30일\연습문제\연습문제\obj\x86\Debug\연습문제.pdb

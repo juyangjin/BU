@@ -1,0 +1,20 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\bin\Debug\dsafasdfa.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\bin\Debug\dsafasdfa.pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\bin\Debug\dsafasdfa.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\dsafasdfa.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\dsafasdfa.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\dsafasdfa.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\dsafasdfa.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\dsafasdfa\obj\x86\Debug\dsafasdfa.pdb
+C:\Users\bon504-01\Desktop\쭈\dsafasdfa\dsafasdfa\obj\x86\Debug\dsafasdfa.exe
+C:\Users\bon504-01\Desktop\쭈\dsafasdfa\dsafasdfa\obj\x86\Debug\dsafasdfa.xml
+C:\Users\bon504-01\Desktop\쭈\dsafasdfa\dsafasdfa\obj\x86\Debug\dsafasdfa.pdb
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.exe
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.xml
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\1.수강과목 합계평균 구하기 프로그램\dsafasdfa\obj\x86\Debug\dsafasdfa.pdb

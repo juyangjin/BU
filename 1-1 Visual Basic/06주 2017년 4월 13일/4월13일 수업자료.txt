@@ -1,0 +1,59 @@
+# 문제 1. 합계 ================================================
+        '변수선언
+        Dim vb, c, java As Integer
+        Dim sum As Integer
+        '입력
+        vb = txtvb.Text
+        c = txtc.Text
+        java = txtjava.Text
+
+        '처리
+        sum = vb + c + java
+        '출력
+        txtsum.Text = sum
+
+# 문제 1. 평균==================================================
+
+
+        '변수선언
+        Dim vb, c, java As Integer
+        Dim sum As Integer
+        Dim avg As Single
+
+        '입력
+        vb = txtvb.Text
+        c = txtc.Text
+        java = txtjava.Text
+        '처리
+        'avg = (vb + c + java) / 3
+        sum = vb + c + java
+        avg = sum / 3
+
+
+        txtavg.Text = avg
+
+
+
+# 문제 4. 총액계산문제==================================================
+
+    1)총액계산
+        '변수선언
+        Dim c500, c100, c50, c10 As Integer
+        Dim total As Integer
+        '입력
+        c500 = txt500.Text
+        c100 = txt100.Text
+        c50 = txt50.Text
+        c10 = txt10.Text
+        '처리
+        total = c500 * 500 + c100 * 100 + c50 * 50 + c10 * 10
+        '출력
+        txttotal.Text = total
+
+    2)clear
+        txt500.Clear()
+        txt100.Clear()
+        txt50.Clear()
+        txt10.Clear()
+        txt500.Focus()
+    End Sub

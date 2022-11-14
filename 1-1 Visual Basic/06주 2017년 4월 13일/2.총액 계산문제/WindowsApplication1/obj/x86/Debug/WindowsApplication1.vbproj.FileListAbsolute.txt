@@ -1,0 +1,28 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\bon504-01\Desktop\쭈\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\bon504-01\Desktop\쭈\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\bon504-01\Desktop\쭈\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\6주 2017년 4월 13일\2.총액 계산문제\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog

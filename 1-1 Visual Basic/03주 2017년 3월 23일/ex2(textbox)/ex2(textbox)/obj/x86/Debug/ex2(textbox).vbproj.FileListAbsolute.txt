@@ -1,0 +1,14 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\bin\Debug\ex2(textbox).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\bin\Debug\ex2(textbox).pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\bin\Debug\ex2(textbox).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ex2_textbox_.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ex2_textbox_.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ex2(textbox).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ex2(textbox).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex2(textbox)\obj\x86\Debug\ex2(textbox).pdb
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex2(textbox)\ex2(textbox)\obj\x86\Debug\ex2(textbox).exe
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex2(textbox)\ex2(textbox)\obj\x86\Debug\ex2(textbox).xml
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex2(textbox)\ex2(textbox)\obj\x86\Debug\ex2(textbox).pdb

@@ -1,0 +1,28 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\bin\Debug\ex1(폼).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\bin\Debug\ex1(폼).pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\bin\Debug\ex1(폼).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ex1_폼_.Form1.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ex1_폼_.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ex1(폼).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ex1(폼).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex1(폼)\obj\x86\Debug\ex1(폼).pdb
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).exe
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).xml
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).pdb
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\bin\Debug\ex1(폼).exe
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\bin\Debug\ex1(폼).pdb
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\bin\Debug\ex1(폼).xml
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1_폼_.Form1.resources
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1_폼_.Resources.resources
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex1(폼)\ex1(폼)\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\수업자료\1학년 1학기 전공수업자료\비주얼 베이직\4주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).exe
+J:\수업자료\1학년 1학기 전공수업자료\비주얼 베이직\4주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).xml
+J:\수업자료\1학년 1학기 전공수업자료\비주얼 베이직\4주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex1(폼)\ex1(폼)\obj\x86\Debug\ex1(폼).pdb

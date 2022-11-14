@@ -1,0 +1,17 @@
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\bin\Debug\ex3(자료입력).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\bin\Debug\ex3(자료입력).pdb
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\bin\Debug\ex3(자료입력).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ex3_자료입력_.자료입력.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ex3_자료입력_.Resources.resources
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).exe
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).xml
+C:\Users\bon504-01\AppData\Local\Temporary Projects\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).pdb
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).exe
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).xml
+C:\Users\bon504-01\Desktop\3월 23일 진주양\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).pdb
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).exe
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).xml
+F:\백석대학교\[수업자료]\1학년 1학기 교양필수자료\기초 프로그래밍\3주 2017년 3월 23일\ex3(자료입력)\ex3(자료입력)\obj\x86\Debug\ex3(자료입력).pdb
