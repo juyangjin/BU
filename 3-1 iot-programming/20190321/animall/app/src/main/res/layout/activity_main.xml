@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하겠습니까?" />
+
+    <CheckBox
+        android:id="@+id/ChkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작함(체크박스)"
+        />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 애완동물은?"
+        android:visibility="invisible"
+        />
+    <!--라디오그룹은 그룹에만 보이기 감추기 적용 id필요-->
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <!--라디오버튼의 id를 식별해서 각 이미지 할당-->
+        <RadioButton
+            android:id="@+id/Rdodog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지" />
+
+        <RadioButton
+            android:id="@+id/Rdocat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이" />
+
+        <RadioButton
+            android:id="@+id/RdoRabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="토끼" />
+
+        <RadioButton
+            android:id="@+id/Rdohorse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="말"/>
+    </RadioGroup>
+    <!--선택함 버튼 이미지뷰-->
+    <Button
+        android:id="@+id/BtnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택함"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/ImgPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <RatingBar
+       android:id="@+id/ratingBar1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       />
+    <!--스쳅사이즈가 원래 0.5씩 증가, 첫번째 큰별, 두번째 스타일 작은별-->
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="10"
+        android:stepSize="1"
+        />
+    <!--rating 속성은 별의 초기값 설정, 마지막 별은 스타일이 중간사이즈별-->
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:rating="1.5"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별 증가 시키기"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별 감소 시키기"
+        />
+
+
+
+</LinearLayout>

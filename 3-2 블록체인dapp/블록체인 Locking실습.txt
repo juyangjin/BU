@@ -1,0 +1,39 @@
+juyang@ubuntu:~$ cd Desktop/
+juyang@ubuntu:~/Desktop$ cd test
+juyang@ubuntu:~/Desktop/test$ openssl ecparam -genkey -name secp256k1 -out pr_Juyang.pem
+juyang@ubuntu:~/Desktop/test$ openssl ec -in pr_Juyang.pem -pubout -out pub_Juyang.pem
+read EC key
+writing EC key
+juyang@ubuntu:~/Desktop/test$ ls
+pr_Juyang.pem  pub_Juyang.pem
+juyang@ubuntu:~/Desktop/test$ cat pr_Juyang.pem 
+-----BEGIN EC PARAMETERS-----
+BgUrgQQACg==
+-----END EC PARAMETERS-----
+-----BEGIN EC PRIVATE KEY-----
+MHQCAQEEIB1Ll2PryJzZC6dYhqcc/779IJeZpKnk++sGXXq/6oX0oAcGBSuBBAAK
+oUQDQgAEIGwoN1+DAqsIB7IgdcLLQWFZYZ6xyGcshJT8iHqzz1ArDHqM0VFxKcLE
+Zvhr2JXyC9j8z1NBF3mTWfcD60d/6A==
+-----END EC PRIVATE KEY-----
+juyang@ubuntu:~/Desktop/test$ cat pub_Juyang.pem 
+-----BEGIN PUBLIC KEY-----
+MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEIGwoN1+DAqsIB7IgdcLLQWFZYZ6xyGcs
+hJT8iHqzz1ArDHqM0VFxKcLEZvhr2JXyC9j8z1NBF3mTWfcD60d/6A==
+-----END PUBLIC KEY-----
+juyang@ubuntu:~/Desktop/test$ openssl sha256 pub_Juyang.pem 
+SHA256(pub_Juyang.pem)= 046f1ce9277b058561ef461e1523c1aab96bc9e82bb983a561337390763402ab
+juyang@ubuntu:~/Desktop/test$ cat > pub_Juyang.txt
+046f1ce9277b058561ef461e1523c1aab96bc9e82bb983a561337390763402ab
+juyang@ubuntu:~/Desktop/test$ cat pub_Juyang.txt 
+046f1ce9277b058561ef461e1523c1aab96bc9e82bb983a561337390763402ab
+juyang@ubuntu:~/Desktop/test$ xxd -r -p pub_Juyang.txt pub_Juyang.bin
+juyang@ubuntu:~/Desktop/test$ cat pub_Juyang.bin 
+o�'{�a�F#���k��+���a3s�v4�
+juyang@ubuntu:~/Desktop/test$ openssl rmd160 pub_Juyang.bin
+RIPEMD160(pub_Juyang.bin)= 7ac98ecf886529c348a82d1c32e79bba317de229
+juyang@ubuntu:~/Desktop/test$ cat > Tr.txt
+from: Juyang
+To: yun 
+Value: 10 BTC 
+pub_Juyang hash:7ac98ecf886529c348a82d1c32e79bba317de229
+
