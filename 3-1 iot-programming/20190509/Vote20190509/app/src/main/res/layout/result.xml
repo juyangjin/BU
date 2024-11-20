@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"
+    android:gravity="center_vertical"
+
+    >
+    <!--너비,높이가 없다.행열로 구분<TableRow>위의 속성은 (열을 1개를 확장해서 1개를 전체로 사용)-->
+    <TableRow>
+        <TextView
+            android:id="@+id/tvTop"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="## 우승 그림 : "
+            android:textSize="15dp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/ivTop"
+            android:scaleType="fitCenter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_span="2"
+            android:src="@drawable/pic1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv1"
+            android:text="그림1"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv2"
+            android:text="그림2"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv3"
+            android:text="그림3"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv4"
+            android:text="그림4"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv5"
+            android:text="그림5"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv6"
+            android:text="그림6"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv7"
+            android:text="그림7"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv8"
+            android:text="그림8"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+
+        <RatingBar
+            android:id="@+id/rbar8"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/tv9"
+        android:text="그림9"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        />
+    <RatingBar
+        android:id="@+id/rbar9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        />
+
+</TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv10"
+            android:text="그림10"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv11"
+            android:text="그림11"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv12"
+            android:text="그림12"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            />
+        <RatingBar
+            android:id="@+id/rbar12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            />
+
+    </TableRow>
+    <TableRow><!--버튼확장 속성 span 2컬럼을 1개로 사용-->
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:text="돌아가기 버튼"
+        android:textSize="20sp"
+        />
+    </TableRow>
+
+</TableLayout>

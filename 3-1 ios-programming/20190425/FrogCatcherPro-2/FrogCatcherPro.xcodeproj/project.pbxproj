@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64792EAA1FA0561B0066C699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64792EA91FA0561B0066C699 /* main.m */; };
+		64792EAD1FA0561B0066C699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64792EAC1FA0561B0066C699 /* AppDelegate.m */; };
+		64792EB01FA0561B0066C699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64792EAF1FA0561B0066C699 /* ViewController.m */; };
+		64792EB31FA0561B0066C699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64792EB11FA0561B0066C699 /* Main.storyboard */; };
+		64792EB51FA0561B0066C699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64792EB41FA0561B0066C699 /* Assets.xcassets */; };
+		64792EB81FA0561B0066C699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64792EB61FA0561B0066C699 /* LaunchScreen.storyboard */; };
+		64792EC31FA0561B0066C699 /* FrogCatcherProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64792EC21FA0561B0066C699 /* FrogCatcherProTests.m */; };
+		64792ECE1FA0561B0066C699 /* FrogCatcherProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64792ECD1FA0561B0066C699 /* FrogCatcherProUITests.m */; };
+		64792EDC1FA05CB00066C699 /* catch.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EDB1FA05CB00066C699 /* catch.png */; };
+		64792EE61FA05CF70066C699 /* frog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EDD1FA05CF70066C699 /* frog1.png */; };
+		64792EE71FA05CF70066C699 /* frog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EDE1FA05CF70066C699 /* frog2.png */; };
+		64792EE81FA05CF70066C699 /* frog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EDF1FA05CF70066C699 /* frog3.png */; };
+		64792EE91FA05CF70066C699 /* frog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE01FA05CF70066C699 /* frog4.png */; };
+		64792EEA1FA05CF70066C699 /* frog5.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE11FA05CF70066C699 /* frog5.png */; };
+		64792EEB1FA05CF70066C699 /* Jane.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE21FA05CF70066C699 /* Jane.png */; };
+		64792EEC1FA05CF70066C699 /* Mike.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE31FA05CF70066C699 /* Mike.png */; };
+		64792EED1FA05CF70066C699 /* players.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE41FA05CF70066C699 /* players.png */; };
+		64792EEE1FA05CF70066C699 /* Tommy.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EE51FA05CF70066C699 /* Tommy.png */; };
+		64792EF01FA062F00066C699 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 64792EEF1FA062F00066C699 /* hole.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64792EBF1FA0561B0066C699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64792E9D1FA0561A0066C699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64792EA41FA0561A0066C699;
+			remoteInfo = FrogCatcherPro;
+		};
+		64792ECA1FA0561B0066C699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64792E9D1FA0561A0066C699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64792EA41FA0561A0066C699;
+			remoteInfo = FrogCatcherPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64792EA51FA0561B0066C699 /* FrogCatcherPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrogCatcherPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64792EA91FA0561B0066C699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64792EAB1FA0561B0066C699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64792EAC1FA0561B0066C699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64792EAE1FA0561B0066C699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64792EAF1FA0561B0066C699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64792EB21FA0561B0066C699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64792EB41FA0561B0066C699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64792EB71FA0561B0066C699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64792EB91FA0561B0066C699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64792EBE1FA0561B0066C699 /* FrogCatcherProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCatcherProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64792EC21FA0561B0066C699 /* FrogCatcherProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrogCatcherProTests.m; sourceTree = "<group>"; };
+		64792EC41FA0561B0066C699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64792EC91FA0561B0066C699 /* FrogCatcherProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCatcherProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64792ECD1FA0561B0066C699 /* FrogCatcherProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrogCatcherProUITests.m; sourceTree = "<group>"; };
+		64792ECF1FA0561B0066C699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64792EDB1FA05CB00066C699 /* catch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catch.png; sourceTree = "<group>"; };
+		64792EDD1FA05CF70066C699 /* frog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog1.png; sourceTree = "<group>"; };
+		64792EDE1FA05CF70066C699 /* frog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog2.png; sourceTree = "<group>"; };
+		64792EDF1FA05CF70066C699 /* frog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog3.png; sourceTree = "<group>"; };
+		64792EE01FA05CF70066C699 /* frog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog4.png; sourceTree = "<group>"; };
+		64792EE11FA05CF70066C699 /* frog5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog5.png; sourceTree = "<group>"; };
+		64792EE21FA05CF70066C699 /* Jane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jane.png; sourceTree = "<group>"; };
+		64792EE31FA05CF70066C699 /* Mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mike.png; sourceTree = "<group>"; };
+		64792EE41FA05CF70066C699 /* players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = players.png; sourceTree = "<group>"; };
+		64792EE51FA05CF70066C699 /* Tommy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tommy.png; sourceTree = "<group>"; };
+		64792EEF1FA062F00066C699 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64792EA21FA0561A0066C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EBB1FA0561B0066C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EC61FA0561B0066C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64792E9C1FA0561A0066C699 = {
+			isa = PBXGroup;
+			children = (
+				64792EA71FA0561B0066C699 /* FrogCatcherPro */,
+				64792EC11FA0561B0066C699 /* FrogCatcherProTests */,
+				64792ECC1FA0561B0066C699 /* FrogCatcherProUITests */,
+				64792EA61FA0561B0066C699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64792EA61FA0561B0066C699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64792EA51FA0561B0066C699 /* FrogCatcherPro.app */,
+				64792EBE1FA0561B0066C699 /* FrogCatcherProTests.xctest */,
+				64792EC91FA0561B0066C699 /* FrogCatcherProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64792EA71FA0561B0066C699 /* FrogCatcherPro */ = {
+			isa = PBXGroup;
+			children = (
+				64792EAB1FA0561B0066C699 /* AppDelegate.h */,
+				64792EAC1FA0561B0066C699 /* AppDelegate.m */,
+				64792EAE1FA0561B0066C699 /* ViewController.h */,
+				64792EAF1FA0561B0066C699 /* ViewController.m */,
+				64792EB11FA0561B0066C699 /* Main.storyboard */,
+				64792EEF1FA062F00066C699 /* hole.png */,
+				64792EDB1FA05CB00066C699 /* catch.png */,
+				64792EDD1FA05CF70066C699 /* frog1.png */,
+				64792EDE1FA05CF70066C699 /* frog2.png */,
+				64792EDF1FA05CF70066C699 /* frog3.png */,
+				64792EE01FA05CF70066C699 /* frog4.png */,
+				64792EE11FA05CF70066C699 /* frog5.png */,
+				64792EE21FA05CF70066C699 /* Jane.png */,
+				64792EE31FA05CF70066C699 /* Mike.png */,
+				64792EE41FA05CF70066C699 /* players.png */,
+				64792EE51FA05CF70066C699 /* Tommy.png */,
+				64792EB41FA0561B0066C699 /* Assets.xcassets */,
+				64792EB61FA0561B0066C699 /* LaunchScreen.storyboard */,
+				64792EB91FA0561B0066C699 /* Info.plist */,
+				64792EA81FA0561B0066C699 /* Supporting Files */,
+			);
+			path = FrogCatcherPro;
+			sourceTree = "<group>";
+		};
+		64792EA81FA0561B0066C699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64792EA91FA0561B0066C699 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64792EC11FA0561B0066C699 /* FrogCatcherProTests */ = {
+			isa = PBXGroup;
+			children = (
+				64792EC21FA0561B0066C699 /* FrogCatcherProTests.m */,
+				64792EC41FA0561B0066C699 /* Info.plist */,
+			);
+			path = FrogCatcherProTests;
+			sourceTree = "<group>";
+		};
+		64792ECC1FA0561B0066C699 /* FrogCatcherProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64792ECD1FA0561B0066C699 /* FrogCatcherProUITests.m */,
+				64792ECF1FA0561B0066C699 /* Info.plist */,
+			);
+			path = FrogCatcherProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64792EA41FA0561A0066C699 /* FrogCatcherPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64792ED21FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherPro" */;
+			buildPhases = (
+				64792EA11FA0561A0066C699 /* Sources */,
+				64792EA21FA0561A0066C699 /* Frameworks */,
+				64792EA31FA0561A0066C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrogCatcherPro;
+			productName = FrogCatcherPro;
+			productReference = 64792EA51FA0561B0066C699 /* FrogCatcherPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64792EBD1FA0561B0066C699 /* FrogCatcherProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64792ED51FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherProTests" */;
+			buildPhases = (
+				64792EBA1FA0561B0066C699 /* Sources */,
+				64792EBB1FA0561B0066C699 /* Frameworks */,
+				64792EBC1FA0561B0066C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64792EC01FA0561B0066C699 /* PBXTargetDependency */,
+			);
+			name = FrogCatcherProTests;
+			productName = FrogCatcherProTests;
+			productReference = 64792EBE1FA0561B0066C699 /* FrogCatcherProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64792EC81FA0561B0066C699 /* FrogCatcherProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64792ED81FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherProUITests" */;
+			buildPhases = (
+				64792EC51FA0561B0066C699 /* Sources */,
+				64792EC61FA0561B0066C699 /* Frameworks */,
+				64792EC71FA0561B0066C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64792ECB1FA0561B0066C699 /* PBXTargetDependency */,
+			);
+			name = FrogCatcherProUITests;
+			productName = FrogCatcherProUITests;
+			productReference = 64792EC91FA0561B0066C699 /* FrogCatcherProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64792E9D1FA0561A0066C699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = JNH;
+				TargetAttributes = {
+					64792EA41FA0561A0066C699 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					64792EBD1FA0561B0066C699 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64792EA41FA0561A0066C699;
+					};
+					64792EC81FA0561B0066C699 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64792EA41FA0561A0066C699;
+					};
+				};
+			};
+			buildConfigurationList = 64792EA01FA0561A0066C699 /* Build configuration list for PBXProject "FrogCatcherPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64792E9C1FA0561A0066C699;
+			productRefGroup = 64792EA61FA0561B0066C699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64792EA41FA0561A0066C699 /* FrogCatcherPro */,
+				64792EBD1FA0561B0066C699 /* FrogCatcherProTests */,
+				64792EC81FA0561B0066C699 /* FrogCatcherProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64792EA31FA0561A0066C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64792EB81FA0561B0066C699 /* LaunchScreen.storyboard in Resources */,
+				64792EE81FA05CF70066C699 /* frog3.png in Resources */,
+				64792EB51FA0561B0066C699 /* Assets.xcassets in Resources */,
+				64792EF01FA062F00066C699 /* hole.png in Resources */,
+				64792EE71FA05CF70066C699 /* frog2.png in Resources */,
+				64792EE61FA05CF70066C699 /* frog1.png in Resources */,
+				64792EEA1FA05CF70066C699 /* frog5.png in Resources */,
+				64792EED1FA05CF70066C699 /* players.png in Resources */,
+				64792EEE1FA05CF70066C699 /* Tommy.png in Resources */,
+				64792EB31FA0561B0066C699 /* Main.storyboard in Resources */,
+				64792EEB1FA05CF70066C699 /* Jane.png in Resources */,
+				64792EE91FA05CF70066C699 /* frog4.png in Resources */,
+				64792EEC1FA05CF70066C699 /* Mike.png in Resources */,
+				64792EDC1FA05CB00066C699 /* catch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EBC1FA0561B0066C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EC71FA0561B0066C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64792EA11FA0561A0066C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64792EB01FA0561B0066C699 /* ViewController.m in Sources */,
+				64792EAD1FA0561B0066C699 /* AppDelegate.m in Sources */,
+				64792EAA1FA0561B0066C699 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EBA1FA0561B0066C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64792EC31FA0561B0066C699 /* FrogCatcherProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64792EC51FA0561B0066C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64792ECE1FA0561B0066C699 /* FrogCatcherProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64792EC01FA0561B0066C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64792EA41FA0561A0066C699 /* FrogCatcherPro */;
+			targetProxy = 64792EBF1FA0561B0066C699 /* PBXContainerItemProxy */;
+		};
+		64792ECB1FA0561B0066C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64792EA41FA0561A0066C699 /* FrogCatcherPro */;
+			targetProxy = 64792ECA1FA0561B0066C699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64792EB11FA0561B0066C699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64792EB21FA0561B0066C699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64792EB61FA0561B0066C699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64792EB71FA0561B0066C699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64792ED01FA0561B0066C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64792ED11FA0561B0066C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64792ED31FA0561B0066C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrogCatcherPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64792ED41FA0561B0066C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrogCatcherPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64792ED61FA0561B0066C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrogCatcherProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCatcherPro.app/FrogCatcherPro";
+			};
+			name = Debug;
+		};
+		64792ED71FA0561B0066C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrogCatcherProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCatcherPro.app/FrogCatcherPro";
+			};
+			name = Release;
+		};
+		64792ED91FA0561B0066C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrogCatcherProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrogCatcherPro;
+			};
+			name = Debug;
+		};
+		64792EDA1FA0561B0066C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrogCatcherProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0133740.FrogCatcherProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrogCatcherPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64792EA01FA0561A0066C699 /* Build configuration list for PBXProject "FrogCatcherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64792ED01FA0561B0066C699 /* Debug */,
+				64792ED11FA0561B0066C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64792ED21FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64792ED31FA0561B0066C699 /* Debug */,
+				64792ED41FA0561B0066C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64792ED51FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64792ED61FA0561B0066C699 /* Debug */,
+				64792ED71FA0561B0066C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64792ED81FA0561B0066C699 /* Build configuration list for PBXNativeTarget "FrogCatcherProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64792ED91FA0561B0066C699 /* Debug */,
+				64792EDA1FA0561B0066C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64792E9D1FA0561A0066C699 /* Project object */;
+}

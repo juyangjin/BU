@@ -1,0 +1,106 @@
+package baekseok.ac.kr.reservation20190418;
+
+import android.graphics.Color;
+import android.os.SystemClock;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.Chronometer;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.TimePicker;
+
+import java.util.Calendar;
+
+public class MainActivity extends AppCompatActivity {
+    Chronometer chrono;
+    Button btnStart, btnEnd;
+    RadioButton rdoCal, rdoTime;
+    CalendarView calView;
+    TimePicker tPicker;
+    TextView textView1;
+    int selectYear, selectMonth, selectDay;//CalendarView에서 날짜를 선택했을 때 임시저장변수
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        setTitle("홍길동의 시간예약");
+        btnStart=(Button)findViewById(R.id.btnStart);
+        btnEnd=(Button)findViewById(R.id.btnEnd);
+        chrono=(Chronometer)findViewById(R.id.chronometer1);
+        rdoCal=(RadioButton)findViewById(R.id.rdoCal);
+        rdoTime=(RadioButton)findViewById(R.id.rdoTime);
+        tPicker=(TimePicker)findViewById(R.id.timePicker1);
+        calView=(CalendarView)findViewById(R.id.calendarView1);
+        textView1=(TextView)findViewById(R.id.textView1);
+        //처음에 상태에 CalendarView는 보이고 TimePicker는 숨김
+        tPicker.setVisibility(View.INVISIBLE);//숨기기 설정
+        calView.setVisibility(View.INVISIBLE);
+        //라디오버튼의 시간설정을 누르면 TimePicker 보이고 CalendarView숨김
+        rdoTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tPicker.setVisibility(View.VISIBLE);
+                calView.setVisibility(View.INVISIBLE);
+            }
+        });
+        //라디오버튼 카렌다뷰를 선택했을 때 카렌더 뷰 보임
+        rdoCal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                calView.setVisibility(View.VISIBLE);//보이고
+                tPicker.setVisibility(View.INVISIBLE);//숨김
+            }
+        });
+        //[예약시작]버튼을 누르면 Chronometer의 초가 증가하고 글자는 빨강색으로 변경
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                chrono.setBase(SystemClock.elapsedRealtime());//시간을 초기화 00으로 초기화
+                chrono.start();//chronometer시작
+                chrono.setTextColor(Color.RED);//칼라클래스 import 글자 빨갛게 설정
+            }
+        });
+        //[예약종료]버튼 chronometer정지, 글자 파란색으로 설정,변경된 년월일 가져옴
+        btnEnd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //chronometer정지
+                chrono.stop();
+                chrono.setTextColor(Color.BLUE);//파란색 설정 "예약에 걸린시간 00:00"
+                //TimePicker를 변경하지 않았을때 0000년 00월 00일 뜨는 문제 해결
+                if (selectYear < 1 || selectMonth < 1 || selectDay < 1) {
+                    //오늘날짜를 가져와야 함 날짜형식 년월일로 바꾸기 위해서 객체생성
+                    java.util.Calendar curDate=java.util.Calendar.getInstance();
+                    curDate.setTimeInMillis(calView.getDate());//카렌더 년월일로 날짜형태로 변경
+                    selectYear=curDate.get(Calendar.YEAR);//현재연도 가져오기java.util에서 클래스 추가
+                    selectMonth=curDate.get(Calendar.MONTH)+1;//현재월가져오기
+                    selectDay=curDate.get(Calendar.DAY_OF_MONTH);// 현재일 가져오기
+                }
+                String str=Integer.toString(selectYear)+"년"+
+                        Integer.toString(selectMonth)+"월"+
+                        Integer.toString(selectDay)+"일"+
+                        Integer.toString(tPicker.getCurrentHour())+"시"+
+                        Integer.toString(tPicker.getCurrentMinute())+"분에 예약됨";
+
+                textView1.setText(str);
+            }
+        });
+
+        //CalendarView에 날짜 년월일을 변경하면
+        // 변경된 년월일을 임시변수에 저장 selectYear,selectMonth,selectDay저장
+        calView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+            @Override
+            public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
+                //동작전역변수
+                selectYear=year;//선택된 년 year
+                selectMonth=month+1;//0~11달 보여줌  +1  선택된 월 month가지고 있음
+                selectDay=dayOfMonth;//선택된 일  dayOfMonth가 가지고 있음
+
+            }
+        });
+
+    }
+}

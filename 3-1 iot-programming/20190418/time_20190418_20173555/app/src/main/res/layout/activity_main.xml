@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format="예약에 걸린 시간 %s"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="예약시작"
+            android:textSize="20sp" />
+        <!--가운데 정렬 %s => 분초 00:00-->
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdoCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캘린더뷰 선택" />
+
+        <RadioButton
+            android:id="@+id/rdoTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간설정 선택" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <!--FrameLayout은 같은 영역에 CalendarWiew과 TimePicker 놓음-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <CalendarView
+                android:id="@+id/calenderView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:showWeekNumber="false" />
+
+            <TimePicker
+                android:id="@+id/timePicker1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:timePickerMode="spinner" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC">
+
+        <Button
+            android:id="@+id/btnEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약완료"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000년 00월 00일 00시 00분에 예약됨"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

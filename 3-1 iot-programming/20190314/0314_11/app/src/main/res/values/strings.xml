@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">0314_11</string>
+    <string name="et1">숫자1을 string변수로 처리</string>
+    <string name="et2">숫자2를 string변수로 처리</string>
+    <string name="bt1">더하기를 string변수로 처리</string>
+    <string name="bt2">빼기를 string변수로 처리</string>
+    <string name="bt3">곱하기를 string변수로 처리</string>
+    <string name="bt4">나누기를 string변수로 처리</string>
+    <string name="bt5">지우기를 string변수로 처리</string>
+</resources>

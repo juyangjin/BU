@@ -1,0 +1,58 @@
+pragma solidity ^0.4.13;
+contract HealthMembership {
+    struct Menber {
+		address addr;
+		uint money;
+	}
+		address public owner;
+		uint public deadline;
+		string public status;
+		bool public ended;
+		uint public numUsers;
+		uint public membership;
+		uint public totalmenbership;
+		
+		mapping (uint => Menber) public menbers;	
+		
+		modifier onlyOwner(){
+		    require(msg.sender == owner);
+		    _;
+		}
+		
+		function HealthMembership(uint _duration, uint _membership, address _owner) payable {
+		    owner = _owner;
+		    deadline = now + _duration;
+		    membership = _membership;
+		    status = "using";
+		    ended = false;
+		    
+		     numUsers = 0;
+		     totalmenbership = 0;
+		}
+		
+		function member() payable {
+		    require(!ended);
+		    Menber mb = menbers[numUsers++];
+		    mb.addr = msg.sender;
+		    mb.money = msg.value;
+		    totalmenbership += mb.money;
+		}
+		
+		function payment() {
+		    require(!ended);
+		 if(now <= deadline){
+		     ended = false;
+		     if(!owner.send(this.balance)){
+		     }
+		 }
+		 else {
+		     status = "stop";
+		     ended = true;
+		 } 	
+		}
+	
+
+	function kill() onlyOwner {
+	    selfdestruct(owner);
+	}
+}

@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6F88C02275856500397450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F88BF2275856500397450 /* AppDelegate.m */; };
+		DD6F88C32275856500397450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F88C22275856500397450 /* ViewController.m */; };
+		DD6F88C62275856500397450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88C42275856500397450 /* Main.storyboard */; };
+		DD6F88C82275856700397450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88C72275856700397450 /* Assets.xcassets */; };
+		DD6F88CB2275856700397450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88C92275856700397450 /* LaunchScreen.storyboard */; };
+		DD6F88CE2275856700397450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F88CD2275856700397450 /* main.m */; };
+		DD6F88D82275856700397450 /* Frog2_20173555Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F88D72275856700397450 /* Frog2_20173555Tests.m */; };
+		DD6F88E32275856700397450 /* Frog2_20173555UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F88E22275856700397450 /* Frog2_20173555UITests.m */; };
+		DD6F88FA2275857E00397450 /* frog2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F02275857C00397450 /* frog2.png */; };
+		DD6F88FB2275857E00397450 /* Mike.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F12275857C00397450 /* Mike.png */; };
+		DD6F88FC2275857E00397450 /* Tommy.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F22275857C00397450 /* Tommy.png */; };
+		DD6F88FD2275857E00397450 /* frog4.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F32275857D00397450 /* frog4.png */; };
+		DD6F88FE2275857E00397450 /* frog1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F42275857D00397450 /* frog1.png */; };
+		DD6F88FF2275857E00397450 /* frog3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F52275857D00397450 /* frog3.png */; };
+		DD6F89002275857E00397450 /* frog5.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F62275857D00397450 /* frog5.png */; };
+		DD6F89012275857E00397450 /* Jane.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F72275857D00397450 /* Jane.png */; };
+		DD6F89022275857E00397450 /* catch.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F82275857E00397450 /* catch.png */; };
+		DD6F89032275857E00397450 /* players.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F88F92275857E00397450 /* players.png */; };
+		DD6F890522758CBA00397450 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6F890422758CBA00397450 /* hole.png */; };
+		DD6F8908227594DD00397450 /* Boing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = DD6F8906227594DD00397450 /* Boing.aiff */; };
+		DD6F8909227594DD00397450 /* Indigo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = DD6F8907227594DD00397450 /* Indigo.aiff */; };
+		DD6F890C2275984F00397450 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6F890B2275984F00397450 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6F88D42275856700397450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6F88B32275856500397450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6F88BA2275856500397450;
+			remoteInfo = Frog2_20173555;
+		};
+		DD6F88DF2275856700397450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6F88B32275856500397450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6F88BA2275856500397450;
+			remoteInfo = Frog2_20173555;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6F88BB2275856500397450 /* Frog2_20173555.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frog2_20173555.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6F88BE2275856500397450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD6F88BF2275856500397450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD6F88C12275856500397450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD6F88C22275856500397450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD6F88C52275856500397450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6F88C72275856700397450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6F88CA2275856700397450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6F88CC2275856700397450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6F88CD2275856700397450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6F88D32275856700397450 /* Frog2_20173555Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Frog2_20173555Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6F88D72275856700397450 /* Frog2_20173555Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Frog2_20173555Tests.m; sourceTree = "<group>"; };
+		DD6F88D92275856700397450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6F88DE2275856700397450 /* Frog2_20173555UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Frog2_20173555UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6F88E22275856700397450 /* Frog2_20173555UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Frog2_20173555UITests.m; sourceTree = "<group>"; };
+		DD6F88E42275856700397450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6F88F02275857C00397450 /* frog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog2.png; sourceTree = "<group>"; };
+		DD6F88F12275857C00397450 /* Mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mike.png; sourceTree = "<group>"; };
+		DD6F88F22275857C00397450 /* Tommy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tommy.png; sourceTree = "<group>"; };
+		DD6F88F32275857D00397450 /* frog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog4.png; sourceTree = "<group>"; };
+		DD6F88F42275857D00397450 /* frog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog1.png; sourceTree = "<group>"; };
+		DD6F88F52275857D00397450 /* frog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog3.png; sourceTree = "<group>"; };
+		DD6F88F62275857D00397450 /* frog5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog5.png; sourceTree = "<group>"; };
+		DD6F88F72275857D00397450 /* Jane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jane.png; sourceTree = "<group>"; };
+		DD6F88F82275857E00397450 /* catch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catch.png; sourceTree = "<group>"; };
+		DD6F88F92275857E00397450 /* players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = players.png; sourceTree = "<group>"; };
+		DD6F890422758CBA00397450 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+		DD6F8906227594DD00397450 /* Boing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Boing.aiff; sourceTree = "<group>"; };
+		DD6F8907227594DD00397450 /* Indigo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Indigo.aiff; sourceTree = "<group>"; };
+		DD6F890B2275984F00397450 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6F88B82275856500397450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F890C2275984F00397450 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88D02275856700397450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88DB2275856700397450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6F88B22275856500397450 = {
+			isa = PBXGroup;
+			children = (
+				DD6F88BD2275856500397450 /* Frog2_20173555 */,
+				DD6F88D62275856700397450 /* Frog2_20173555Tests */,
+				DD6F88E12275856700397450 /* Frog2_20173555UITests */,
+				DD6F88BC2275856500397450 /* Products */,
+				DD6F890A2275984F00397450 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6F88BC2275856500397450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F88BB2275856500397450 /* Frog2_20173555.app */,
+				DD6F88D32275856700397450 /* Frog2_20173555Tests.xctest */,
+				DD6F88DE2275856700397450 /* Frog2_20173555UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6F88BD2275856500397450 /* Frog2_20173555 */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F8906227594DD00397450 /* Boing.aiff */,
+				DD6F8907227594DD00397450 /* Indigo.aiff */,
+				DD6F890422758CBA00397450 /* hole.png */,
+				DD6F88F82275857E00397450 /* catch.png */,
+				DD6F88F42275857D00397450 /* frog1.png */,
+				DD6F88F02275857C00397450 /* frog2.png */,
+				DD6F88F52275857D00397450 /* frog3.png */,
+				DD6F88F32275857D00397450 /* frog4.png */,
+				DD6F88F62275857D00397450 /* frog5.png */,
+				DD6F88F72275857D00397450 /* Jane.png */,
+				DD6F88F12275857C00397450 /* Mike.png */,
+				DD6F88F92275857E00397450 /* players.png */,
+				DD6F88F22275857C00397450 /* Tommy.png */,
+				DD6F88BE2275856500397450 /* AppDelegate.h */,
+				DD6F88BF2275856500397450 /* AppDelegate.m */,
+				DD6F88C12275856500397450 /* ViewController.h */,
+				DD6F88C22275856500397450 /* ViewController.m */,
+				DD6F88C42275856500397450 /* Main.storyboard */,
+				DD6F88C72275856700397450 /* Assets.xcassets */,
+				DD6F88C92275856700397450 /* LaunchScreen.storyboard */,
+				DD6F88CC2275856700397450 /* Info.plist */,
+				DD6F88CD2275856700397450 /* main.m */,
+			);
+			path = Frog2_20173555;
+			sourceTree = "<group>";
+		};
+		DD6F88D62275856700397450 /* Frog2_20173555Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F88D72275856700397450 /* Frog2_20173555Tests.m */,
+				DD6F88D92275856700397450 /* Info.plist */,
+			);
+			path = Frog2_20173555Tests;
+			sourceTree = "<group>";
+		};
+		DD6F88E12275856700397450 /* Frog2_20173555UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F88E22275856700397450 /* Frog2_20173555UITests.m */,
+				DD6F88E42275856700397450 /* Info.plist */,
+			);
+			path = Frog2_20173555UITests;
+			sourceTree = "<group>";
+		};
+		DD6F890A2275984F00397450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F890B2275984F00397450 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6F88BA2275856500397450 /* Frog2_20173555 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6F88E72275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555" */;
+			buildPhases = (
+				DD6F88B72275856500397450 /* Sources */,
+				DD6F88B82275856500397450 /* Frameworks */,
+				DD6F88B92275856500397450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frog2_20173555;
+			productName = Frog2_20173555;
+			productReference = DD6F88BB2275856500397450 /* Frog2_20173555.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6F88D22275856700397450 /* Frog2_20173555Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6F88EA2275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555Tests" */;
+			buildPhases = (
+				DD6F88CF2275856700397450 /* Sources */,
+				DD6F88D02275856700397450 /* Frameworks */,
+				DD6F88D12275856700397450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6F88D52275856700397450 /* PBXTargetDependency */,
+			);
+			name = Frog2_20173555Tests;
+			productName = Frog2_20173555Tests;
+			productReference = DD6F88D32275856700397450 /* Frog2_20173555Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD6F88DD2275856700397450 /* Frog2_20173555UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6F88ED2275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555UITests" */;
+			buildPhases = (
+				DD6F88DA2275856700397450 /* Sources */,
+				DD6F88DB2275856700397450 /* Frameworks */,
+				DD6F88DC2275856700397450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6F88E02275856700397450 /* PBXTargetDependency */,
+			);
+			name = Frog2_20173555UITests;
+			productName = Frog2_20173555UITests;
+			productReference = DD6F88DE2275856700397450 /* Frog2_20173555UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6F88B32275856500397450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = YANG;
+				TargetAttributes = {
+					DD6F88BA2275856500397450 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DD6F88D22275856700397450 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD6F88BA2275856500397450;
+					};
+					DD6F88DD2275856700397450 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD6F88BA2275856500397450;
+					};
+				};
+			};
+			buildConfigurationList = DD6F88B62275856500397450 /* Build configuration list for PBXProject "Frog2_20173555" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6F88B22275856500397450;
+			productRefGroup = DD6F88BC2275856500397450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6F88BA2275856500397450 /* Frog2_20173555 */,
+				DD6F88D22275856700397450 /* Frog2_20173555Tests */,
+				DD6F88DD2275856700397450 /* Frog2_20173555UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6F88B92275856500397450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F88FC2275857E00397450 /* Tommy.png in Resources */,
+				DD6F88FA2275857E00397450 /* frog2.png in Resources */,
+				DD6F88CB2275856700397450 /* LaunchScreen.storyboard in Resources */,
+				DD6F8908227594DD00397450 /* Boing.aiff in Resources */,
+				DD6F890522758CBA00397450 /* hole.png in Resources */,
+				DD6F88FE2275857E00397450 /* frog1.png in Resources */,
+				DD6F88FB2275857E00397450 /* Mike.png in Resources */,
+				DD6F88FF2275857E00397450 /* frog3.png in Resources */,
+				DD6F88C82275856700397450 /* Assets.xcassets in Resources */,
+				DD6F8909227594DD00397450 /* Indigo.aiff in Resources */,
+				DD6F89022275857E00397450 /* catch.png in Resources */,
+				DD6F88FD2275857E00397450 /* frog4.png in Resources */,
+				DD6F88C62275856500397450 /* Main.storyboard in Resources */,
+				DD6F89032275857E00397450 /* players.png in Resources */,
+				DD6F89012275857E00397450 /* Jane.png in Resources */,
+				DD6F89002275857E00397450 /* frog5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88D12275856700397450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88DC2275856700397450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6F88B72275856500397450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F88C32275856500397450 /* ViewController.m in Sources */,
+				DD6F88CE2275856700397450 /* main.m in Sources */,
+				DD6F88C02275856500397450 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88CF2275856700397450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F88D82275856700397450 /* Frog2_20173555Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F88DA2275856700397450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F88E32275856700397450 /* Frog2_20173555UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6F88D52275856700397450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6F88BA2275856500397450 /* Frog2_20173555 */;
+			targetProxy = DD6F88D42275856700397450 /* PBXContainerItemProxy */;
+		};
+		DD6F88E02275856700397450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6F88BA2275856500397450 /* Frog2_20173555 */;
+			targetProxy = DD6F88DF2275856700397450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6F88C42275856500397450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6F88C52275856500397450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6F88C92275856700397450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6F88CA2275856700397450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6F88E52275856700397450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD6F88E62275856700397450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6F88E82275856700397450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6F88E92275856700397450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6F88EB2275856700397450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frog2_20173555.app/Frog2_20173555";
+			};
+			name = Debug;
+		};
+		DD6F88EC2275856700397450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frog2_20173555.app/Frog2_20173555";
+			};
+			name = Release;
+		};
+		DD6F88EE2275856700397450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frog2_20173555;
+			};
+			name = Debug;
+		};
+		DD6F88EF2275856700397450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Frog2_20173555UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Frog2-20173555UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frog2_20173555;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6F88B62275856500397450 /* Build configuration list for PBXProject "Frog2_20173555" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F88E52275856700397450 /* Debug */,
+				DD6F88E62275856700397450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6F88E72275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F88E82275856700397450 /* Debug */,
+				DD6F88E92275856700397450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6F88EA2275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F88EB2275856700397450 /* Debug */,
+				DD6F88EC2275856700397450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6F88ED2275856700397450 /* Build configuration list for PBXNativeTarget "Frog2_20173555UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F88EE2275856700397450 /* Debug */,
+				DD6F88EF2275856700397450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6F88B32275856500397450 /* Project object */;
+}

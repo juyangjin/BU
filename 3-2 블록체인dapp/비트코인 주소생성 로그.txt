@@ -1,0 +1,50 @@
+juyang@ubuntu:~/Desktop$ cd test4
+juyang@ubuntu:~/Desktop/test4$ xxd -r -p pubkey.txt > pubkey.bin
+juyang@ubuntu:~/Desktop/test4$ openssl sha256 pubkey.bin
+SHA256(pubkey.bin)= 5ce8f3ded3b20e4702162e34b7d9b4aa5bb0907bd3a96f755cb2d3d6473df861
+juyang@ubuntu:~/Desktop/test4$ cat > step3.txt
+5ce8f3ded3b20e4702162e34b7d9b4aa5bb0907bd3a96f755cb2d3d6473df861
+juyang@ubuntu:~/Desktop/test4$ xxd -r -p step3.txt > step3.bin
+juyang@ubuntu:~/Desktop/test4$ cat step3.bin
+\���ӲG.4�ٴ�[��{өou\���G=�ajuyang@ubuntu:~/Desktop/test4$ cat step3.txt
+5ce8f3ded3b20e4702162e34b7d9b4aa5bb0907bd3a96f755cb2d3d6473df861
+juyang@ubuntu:~/Desktop/test4$ openssl rmd160 step3.bin
+RIPEMD160(step3.bin)= f77e6e6581f3118f3145d3d74c5234d5d798198b
+juyang@ubuntu:~/Desktop/test4$ cat > step4.txt
+f77e6e6581f3118f3145d3d74c5234d5d798198b
+juyang@ubuntu:~/Desktop/test4$ vi step4.txt
+juyang@ubuntu:~/Desktop/test4$ cat step4.txt
+00f77e6e6581f3118f3145d3d74c5234d5d798198b
+juyang@ubuntu:~/Desktop/test4$ cat > step5.txt
+00f77e6e6581f3118f3145d3d74c5234d5d798198b
+juyang@ubuntu:~/Desktop/test4$ ^
+
+juyang@ubuntu:~/Desktop/test4$ cat step5.txt
+00f77e6e6581f3118f3145d3d74c5234d5d798198b
+juyang@ubuntu:~/Desktop/test4$ xxd -r -p step5.txt > step5.bin
+juyang@ubuntu:~/Desktop/test4$ openssl sha256 step5.bin
+SHA256(step5.bin)= 07edb3451add22bd06ec5b43ed739bf7c969d8ed9a987f620385ed7f2f1fdbad
+juyang@ubuntu:~/Desktop/test4$ cat > step6.txt
+07edb3451add22bd06ec5b43ed739bf7c969d8ed9a987f620385ed7f2f1fdbad
+juyang@ubuntu:~/Desktop/test4$ cat step6.txt
+07edb3451add22bd06ec5b43ed739bf7c969d8ed9a987f620385ed7f2f1fdbad
+juyang@ubuntu:~/Desktop/test4$ xxd -r -p step6.txt > step6.bin
+juyang@ubuntu:~/Desktop/test4$ openssl sha256 step6.bin
+SHA256(step6.bin)= b5d072cc4a997fed871330c334cd6c3e8afb70a64b7dbc84cc7ef8ec79b9645e
+juyang@ubuntu:~/Desktop/test4$ cat > step7.txt
+b5d072cc4a997fed871330c334cd6c3e8afb70a64b7dbc84cc7ef8ec79b9645e
+juyang@ubuntu:~/Desktop/test4$ cat step7.txt 
+b5d072cc4a997fed871330c334cd6c3e8afb70a64b7dbc84cc7ef8ec79b9645e
+juyang@ubuntu:~/Desktop/test4$ vi step5.txt
+juyang@ubuntu:~/Desktop/test4$ cat step5.txt
+00f77e6e6581f3118f3145d3d74c5234d5d798198bb5d072cc
+juyang@ubuntu:~/Desktop/test4$ cat step9.txt
+cat: step9.txt: No such file or directory
+juyang@ubuntu:~/Desktop/test4$ cat > step9.txt
+00f77e6e6581f3118f3145d3d74c5234d5d798198bb5d072cc
+juyang@ubuntu:~/Desktop/test4$ xxd -r -p step9.txt > step9.bin
+juyang@ubuntu:~/Desktop/test4$ cat step9.bin | base58 > bitcoin.addr
+juyang@ubuntu:~/Desktop/test4$ cat bitcoin.addr 
+juyang@ubuntu:~/Desktop/test4$ cat bitcoin.addr 
+1PZdMykQrHQ7BHTo2Dim3gbFV3r71pmN19juyang@ubuntu:~/Desktop/test4$ 
+

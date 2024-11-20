@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_marginTop=""
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주제"
+        android:textSize="40sp"
+        />
+ <LinearLayout
+     android:layout_marginTop="150dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/mat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="맛집" />
+
+    <Button
+        android:id="@+id/cum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="커뮤니티" />
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/ji"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지도"/>
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/suk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="숙박"/>
+    </LinearLayout>
+</LinearLayout>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="뒤로가기" />
+
+</LinearLayout>
